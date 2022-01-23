@@ -13,10 +13,15 @@ public class Test {
 		System.out.println("This is test case : 3");
 	}
 
+	public void igthu1() {
+		System.out.println("Sample git hub test");
+	}
+
 	public static void main(String[] args) {
 		Test s = new Test();
 		s.test1();
 		s.test2();
 		s.test3();
+		s.igthu1();
 	}
 }
